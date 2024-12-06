@@ -1,0 +1,40 @@
+div{
+    line-height: 1.5;
+    background: #dfd7c1;
+    border: 1px solid #c1b5a2;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    width: 400px;
+}
+
+input {background-color:rgb(234, 234, 221) ;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px -1px rgba(0, 0, 0, 0.6);
+
+}
+
+.center-text {
+    text-align: center;
+    color: #414851;
+    
+}
+
+body {background-color: rgb(255, 235, 205);
+    display: grid;
+    
+}
+
+button {border-radius: 10px;
+    background-color:rgb(212, 212, 195);
+}
+
+p { color: #66727f;
+
+}
+legend {color: #66727f;}
+
+h1 {color:rgb(6, 11, 104);
+    text-align: center; }
