@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Моя первая анкета</title>
 	<link rel="icon" href="image/3549293.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -11,38 +11,66 @@
 </head>
 <body>
 	<h1>Твоя анкета</h1>
-<div class="center-text">
+
+	<section class="center-text">
 	<h2>Авторизоваться</h2>
-	<h3>Введите</h3>
-	<P>Логин:<input type="text" required></P>
-	<p>Пароль:<input type="password" required></p>
-		<form>
-	<p><button> Войти</button></p>
-   </form>
-	</div>
-	<div class="center-text">
+
+<form>
+	<p>
+		<label for="register-username">Логин:</label>
+		<input type="text" id="register-username" name="username" placeholder="Введите имя" required>
+	</p>
+
+	<p>
+		<label for="register-password">Пароль:</label>
+		<input type="password" id="pass" name="pass" placeholder="Введите пароль"required>
+	</p>
+
+		<button type="submit"> Войти</button>
+	</form>
+
+</section>
+	
+		<section class="center-text">
 		<h2>Зарегистрироваться</h2>
-		<h3>Придумайте</h3>
-		<p>Логин:<input type="text" required></p>
-		<p>Пароль:<input type="password" required></p>
-		<p>Повторите пароль:<input type="password" required></p>
+
 	<form>
-		<p> <button>Войти</button></p>
+		<p>
+			<label for="register-username1">Логин:</label>
+			<input type="text" id="register-username1" name="username1" placeholder="Придумайте имя" required>
+		</p>
+		
+		<p>
+			<label for="register-password1">Пароль:</label>
+			<input type="password" id="pass1" name="pass1" placeholder="Введите пароль" required>
+		</p>
+		
+		<p>
+			<label for="register-password2">Повторите пароль:</label>
+			<input type="password" id="pass2" name="pass2" placeholder="Повторите пароль" required>
+		</p>
+		
+			<button type="submit">Зарегистрироваться</button>
+
 	   </form>
-</div>
-<div class="center-text">
+	</section>
+
+<section class="center-text">
 	<h2>Ваши задачи:</h2>
 	<form>
-		<p>Ваши задачи:<input type="text" required></form></p>
-		<p><button>Добавить</button></p>
+		<p>
+			<label for="register-tasks">Ваши задачи:</label>
+			<input type="text" id="tasks" name="tasks" placeholder="Введите ваши задачи" required></p>
+			
+			<button type="submit">Добавить</button>
 	   </form>
 
-<H2>Список задач:</H2>
-<ul>
-	<li>Зарегистрироваться</li>
-	<li>Авторизоваться</li>
-	<li>Ввести данные</li>
-</ul>
-</div>
+		<h2>Список задач:</h2>
+		<ul>
+			<li>Зарегистрироваться</li>
+			<li>Авторизоваться</li>
+			<li>Ввести данные</li>
+		</ul>
+	</section>
 </body>
 </html>
